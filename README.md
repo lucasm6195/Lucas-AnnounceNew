@@ -1,7 +1,5 @@
 # viperz-announcenew
 
-## ViperZ Announces 
-
 Config.lua configurable to rename jobs
 
 Advertisement for any job
