@@ -2,8 +2,11 @@
 
 Config.lua configurable to rename jobs
 
+Config.lua configrable image of the jobs
+
 Advertisement for any job
 
 And tell you that I love you
 
-![image](https://github.com/mano6195/viperz-announcenew/assets/120651078/9f7a10e1-ff0c-4a53-bfff-55fbb74d9bde)
+![image](https://github.com/mano6195/viperz-announcenew/assets/120651078/323f9831-fbf2-4368-b732-15f5b8e29eed)
+
