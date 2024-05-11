@@ -6,19 +6,19 @@
 
 #notification {
     position: fixed;
-    top: 1%;
+    bottom: 1%;
+    /* top: 1%; */
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 20px;
     text-align: center;
-    width: 300px;
+    width: 350px;
     display: none;
     animation: fadeIn 1s;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -32,19 +32,38 @@
 }
 
 #jobTitle {
-    font-size: 16px;
+    font-size: 15px;
     font-family: --c;
-    /* font-weight: 600; */
     margin-bottom: 10px;
     color: #f1c40f;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3px;
+    /* width: auto;
+    display: inline-block; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #jobMessage {
     font-size: 13px;
     font-family: --c;
+    margin-left: 15px;
+}
+
+#announcementContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#jobImage {
+    width: 55px;
+    height: 55px;
+    margin-right: 380px;
+    margin-top: 988px;
+    display: none;
+    background-color: #f1c40f;
+    border: 3px solid #333; 
+    border-radius: 30px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+    animation: fadeIn 1s;
 }

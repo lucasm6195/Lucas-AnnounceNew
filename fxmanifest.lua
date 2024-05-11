@@ -2,15 +2,16 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'mano.6195'
-description 'Sistema de anuncios de job | https://discord.gg/viperz'
+description 'Create AnnounceJob'
+discord 'https://discord.gg/viperz'
 lua54 'yes'
 
 client_scripts {
-    'client.lua'
+    'client.lua',
 }
 
 server_scripts {
-    'server.lua'
+    'server.lua',
 }
 
 shared_scripts {
