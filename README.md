@@ -1,5 +1,3 @@
-# viperz-announcenew
-
 Config.lua configurable to rename jobs
 
 Config.lua configrable image of the jobs
