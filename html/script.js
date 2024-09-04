@@ -11,9 +11,9 @@ window.addEventListener('message', function(event) {
 
         setTimeout(function() {
             notification.style.animation = 'fadeOut 1s forwards';
-            jobImage.style.display = 'none';
             setTimeout(function() {
                 notification.style.display = 'none';
+                jobImage.style.display = 'none';
             }, 1000);
         }, 6000);
     }
